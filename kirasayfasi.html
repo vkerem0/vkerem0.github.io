@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="body">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
     <div class="container">
         <div class="image-container">
             <img src="flipchart.png" alt="Image Description">
         </div>
         <div class="text-container">
+            <button class="mainbutton"> <a href="index.html"> Ana Sayfa </a> </button>
+
             <h1>Kiralık Flipchart</h1>
             <h4> Stok: 39 Adet</h4>
             <p>Yazı Tahtası Özellikleri</p>
@@ -91,9 +96,24 @@ p {
 }
 
 
+.mainbutton {
+    background-color: blueviolet;
+    color: white;
+    border-width: 0px;
+    border-radius: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition: background-color 0.15s, color 0.15s;
+}
 
+.mainbutton:hover {
+    background-color: black;
+    color:white;
+}
 
-
+.mainbutton:active {
+    opacity: 0.8;
+}
 
 
 
